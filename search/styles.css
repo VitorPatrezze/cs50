@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+a {
+    margin: 1rem
+}
+
+form {
+    display: grid;
+    margin-top: 10rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-box {
+    flex-grow: 1;
+}
+
+input {
+    width: auto;
+    margin: auto;
+
+}
+
+.google-button {
+    border-radius: .3rem;
+    border-width: 0;
+    padding: .6rem;
+    font-weight: bold;
+    color: white;
+    background-color: #8ab4f8;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.input-simple {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    vertical-align: middle;
+    height: 1.8rem;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
